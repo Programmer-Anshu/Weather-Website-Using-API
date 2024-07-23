@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+body {
+  width: 100%;
+
+  height: 100vh;
+  /* background-image: url(/assets/pexels-damir-mijailovic-1921088-5409941.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  color: black;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  width: 300px;
+  color: aqua;
+  border-radius: 8px;
+  /* background-image: url(/assets/full-shot-man-bridge-with-light.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 420px;
+  margin-top: 65vh;
+}
+h1 {
+  margin-bottom: 20px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  margin-left: 100px;
+  font-size: medium;
+  scale: 0;
+}
+.countryicon{
+  width: 20px;
+margin-right: 30px;
+margin-bottom: 10px;
+}
+.copyright {
+  position: absolute;
+  margin-top: 140vh;
+}
+
+.content {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  color: black;
+}
+.seen {
+  font-size: 22px;
+}
+.dateandtime {
+  display: flex;
+  gap: 160px;
+  padding-right: 40px;
+  margin-top: 50px;
+}
+
+.todayweek {
+  width: 50%;
+  /* height: 40px; */
+  background-color: aqua;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  gap: 180px;
+  margin-top: 50px;
+  color: black;
+  padding-right: 20px;
+  font-size: 22px;
+}
+
+.today {
+  position: relative;
+  margin-top: 15px;
+  /* font-size: 20px; */
+}
+.week {
+  color: aqua;
+  font-size: 15px;
+  position: relative;
+  width: 1820%;
+  background-color: "";
+  margin-top: 15px;
+}
+
+.Cloudly {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.date {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.time {
+  position: relative;
+  font-size: 15px;
+}
+.img {
+  font-weight: 700;
+
+  filter: opacity(1) drop-shadow(0 0 0 rgba(255, 230, 0, 0.425));
+}
+
+.newcard {
+  display: flex;
+  margin-top: 108vh;
+  position: absolute;
+  gap: 20px;
+}
+
+.fistcard {
+  border-radius: 5px;
+  width: 80px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.171);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.windimg {
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.wind {
+  font-size: 13.4px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.feels {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.humidity {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.haze {
+  font-size: 20px;
+  position: relative;
+  margin-top: 50vh;
+  font-weight: bolder;
+  margin-right: 28vh;
+}
+
+.location{
+  cursor: pointer;
+  width: 30px;
+  margin-top: 5px;
+  color: darkgray;
+}
